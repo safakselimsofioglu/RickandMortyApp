@@ -66,8 +66,8 @@
 		679FDFFA2C35A35B0073FBA7 = {
 			isa = PBXGroup;
 			children = (
-				679FE0052C35A35B0073FBA7 /* RickAndMorty */,
 				679FE0042C35A35B0073FBA7 /* Products */,
+				679FE0052C35A35B0073FBA7 /* RickAndMorty */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,12 +84,12 @@
 			children = (
 				679FE01F2C35A4DD0073FBA7 /* APIClient */,
 				679FE01A2C35A4B40073FBA7 /* Controllers */,
+				679FE0142C35A35D0073FBA7 /* Info.plist */,
 				679FE01E2C35A4D20073FBA7 /* Managers */,
 				679FE01B2C35A4BC0073FBA7 /* Models */,
 				679FE0202C35A4F20073FBA7 /* Resources */,
 				679FE01D2C35A4C80073FBA7 /* ViewModels */,
 				679FE01C2C35A4C30073FBA7 /* Views */,
-				679FE0142C35A35D0073FBA7 /* Info.plist */,
 			);
 			path = RickAndMorty;
 			sourceTree = "<group>";
@@ -105,13 +105,13 @@
 		679FE01B2C35A4BC0073FBA7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				679FE0212C35A57D0073FBA7 /* RMLocation.swift */,
 				679FE0232C35A5880073FBA7 /* RMCharacter.swift */,
+				67E064032C35F89100D64907 /* RMCharacterGender.swift */,
+				67E064012C35F86300D64907 /* RMCharacterStatus.swift */,
 				679FE0252C35A5A10073FBA7 /* RMEpisode.swift */,
+				679FE0212C35A57D0073FBA7 /* RMLocation.swift */,
 				67E063FD2C35F65800D64907 /* RMOrigin.swift */,
 				67E063FF2C35F6F700D64907 /* RMSingleLocation.swift */,
-				67E064012C35F86300D64907 /* RMCharacterStatus.swift */,
-				67E064032C35F89100D64907 /* RMCharacterGender.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -140,9 +140,9 @@
 		679FE01F2C35A4DD0073FBA7 /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
-				67E063F72C35E84A00D64907 /* RMService.swift */,
-				67E063F92C35E85A00D64907 /* RMRequest.swift */,
 				67E063FB2C35F0D300D64907 /* RMEndpoint.swift */,
+				67E063F92C35E85A00D64907 /* RMRequest.swift */,
+				67E063F72C35E84A00D64907 /* RMService.swift */,
 			);
 			path = APIClient;
 			sourceTree = "<group>";
@@ -151,9 +151,9 @@
 			isa = PBXGroup;
 			children = (
 				679FE0062C35A35B0073FBA7 /* AppDelegate.swift */,
-				679FE0082C35A35B0073FBA7 /* SceneDelegate.swift */,
 				679FE00F2C35A35D0073FBA7 /* Assets.xcassets */,
 				679FE0112C35A35D0073FBA7 /* LaunchScreen.storyboard */,
+				679FE0082C35A35B0073FBA7 /* SceneDelegate.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -161,11 +161,11 @@
 		679FE0272C35A5DC0073FBA7 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				679FE00A2C35A35B0073FBA7 /* RMTabBarController.swift */,
 				679FE0282C35A6040073FBA7 /* RMCharacterViewController.swift */,
-				679FE02A2C35A6120073FBA7 /* RMLocationViewController.swift */,
 				679FE02C2C35A61C0073FBA7 /* RMEpisodeViewController.swift */,
+				679FE02A2C35A6120073FBA7 /* RMLocationViewController.swift */,
 				679FE02E2C35A6230073FBA7 /* RMSettingsViewController.swift */,
+				679FE00A2C35A35B0073FBA7 /* RMTabBarController.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";

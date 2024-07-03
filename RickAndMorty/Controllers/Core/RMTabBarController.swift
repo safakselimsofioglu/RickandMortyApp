@@ -13,7 +13,6 @@ final class RMTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpTabs()
-        print("--s")
     }
     
     private func setUpTabs(){
